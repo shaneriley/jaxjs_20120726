@@ -1,0 +1,8 @@
+- @title = "List of Demos"
+
+%h1= @title
+%ul
+  - Dir.glob('source/*.html.haml').sort.each do |file|
+    - page = File.basename(file,'.html.haml')
+    -  unless page == 'index'
+      %li= link_to page.titleize, "/#{page}.html"

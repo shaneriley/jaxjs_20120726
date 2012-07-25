@@ -1,0 +1,42 @@
+@import "mixins"
+
+body
+  font: normal 14px "Arcade Fever"
+  text-transform: lowercase
+  -webkit-font-smoothing: antialiased
+  color: #222222
+  html, &
+    background: #ae1f24
+
+section
+  width: 900px
+  padding: 30px
+  margin: 0 auto
+  background: #ffffff
+
+img
+  display: block
+
+h1
+  padding: 0 0 20px 0
+  font-size: 32px
+  &:before
+    text-transform: none
+    vertical-align: middle
+    content: "D "
+  &:after
+    text-transform: none
+    vertical-align: middle
+    content: " F"
+ul
+  padding: 0 0 0 18px
+  list-style: disc
+  line-height: 180%
+a
+  text-decoration: none
+  color: #0066cc
+  &:hover
+    text-decoration: underline
+
+button
+  margin: 20px 0 0 0
