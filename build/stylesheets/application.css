@@ -1,0 +1,95 @@
+/*
+----------------------------------------
+Tantek Celik's Whitepsace Reset
+     Author:  	Tantek Celik, Shane Riley
+    Version:  	(CC) 2010 Some Rights Reserved - http://creativecommons.org/licenses/by/2.0
+Description:	Resets default styling of common browsers to a common base
+----------------------------------------
+*/
+/* line 11, whitespace-reset.css.scss */
+ul, ol {
+  list-style: none; }
+
+/* line 12, whitespace-reset.css.scss */
+h1, h2, h3, h4, h5, h6, pre, code {
+  font-size: 1em; }
+
+/* line 13, whitespace-reset.css.scss */
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input, dl, dt, dd, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+
+/* line 16, whitespace-reset.css.scss */
+a img, :link img, :visited img, fieldset {
+  border: none; }
+
+/* line 17, whitespace-reset.css.scss */
+address {
+  font-style: normal; }
+
+/* line 18, whitespace-reset.css.scss */
+header, section, article, nav, footer, hgroup, details, summary, figure {
+  display: block; }
+
+/* line 19, whitespace-reset.css.scss */
+mark {
+  color: inherit;
+  background: transparent; }
+
+/* line 22, whitespace-reset.css.scss */
+summary::-webkit-details-marker {
+  display: none; }
+
+/* line 3, application.css.sass */
+body {
+  font: normal 14px "Arcade Fever";
+  text-transform: lowercase;
+  -webkit-font-smoothing: antialiased;
+  color: #222222; }
+  /* line 8, application.css.sass */
+  body html, body {
+    background: #ae1f24; }
+
+/* line 11, application.css.sass */
+section {
+  width: 900px;
+  padding: 30px;
+  margin: 0 auto;
+  background: white; }
+
+/* line 17, application.css.sass */
+img {
+  display: block; }
+
+/* line 20, application.css.sass */
+h1 {
+  padding: 0 0 20px 0;
+  font-size: 32px; }
+  /* line 23, application.css.sass */
+  h1:before {
+    text-transform: none;
+    vertical-align: middle;
+    content: "D "; }
+  /* line 27, application.css.sass */
+  h1:after {
+    text-transform: none;
+    vertical-align: middle;
+    content: " F"; }
+
+/* line 31, application.css.sass */
+ul {
+  padding: 0 0 0 18px;
+  list-style: disc;
+  line-height: 180%; }
+
+/* line 35, application.css.sass */
+a {
+  text-decoration: none;
+  color: #0066cc; }
+  /* line 38, application.css.sass */
+  a:hover {
+    text-decoration: underline; }
+
+/* line 41, application.css.sass */
+button {
+  margin: 20px 0 0 0; }
